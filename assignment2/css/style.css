@@ -1,15 +1,16 @@
 .l-head {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
 }
-
 .l-head__logo {
   background-color: rgb(10, 10, 10);
   color: #fff;
   text-align: center;
   width: 100%;
 }
-
 .l-head__link {
   border: #fff solid 1px;
   background-color: #c07e7e;
@@ -23,29 +24,60 @@
   margin: 0px auto;
   width: 900px;
 }
-
-.c-image {
+.l-sec__image {
   display: flex;
   flex-wrap: wrap;
   gap: 3px 15px;
   text-align: center;
   padding: 10px;
 }
-
-.c-image__box {
+.l-sec__image__box {
   width: 30%;
 }
-
-.c-text__box {
+.l-sec__image__block {
   border: #fff solid 1px;
   background-color: #f783b0;
   padding: 10px;
   color: #fff;
-  position: relative;
+}
+.l-sec .box-btn {
+  text-align: center;
+  background-color: #f8f2f5;
+  color: #fff;
+  transform: scale(0);
+  transform: skewX(150deg);
+  box-shadow: 10px 3px 10px #da3131;
+  height: px;
+}
+.l-sec .box-btn a {
+  text-decoration: none;
+}
+.l-sec .box-btn:hover {
+  background-color: #f783b0;
+  transform: scale(1.08);
+  transform: all 1s ease;
+  box-shadow: 10px 3px 10px #da3131;
+  transform: skewX(150deg);
+}
+.l-sec .box-icon {
+  transform: scale(1);
+  transition: all 1s ease;
+}
+.l-sec .box-icon:hover {
+  transform: scale(1.08);
+  overflow: hidden;
 }
 
-.c-text__box::before {
+.block--plus {
+  position: relative;
+}
+.block--plus::before {
+  content: "";
   position: absolute;
-  border-right: #07c907 10px;
-  border-bottom: #fff 10px;
+  height: 2px;
+  width: 100px;
+  left: 50%;
+  background-color: #f83707;
+  bottom: -15px;
+  transform: translate(-60px);
 }/*# sourceMappingURL=style.css.map */
