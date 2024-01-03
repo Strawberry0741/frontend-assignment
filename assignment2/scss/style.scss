@@ -1,0 +1,93 @@
+.l-head{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+
+&__logo{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    // position: fixed;
+}
+&__link{
+    border: #fff solid 1px;
+    background-color: #c07e7e;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    gap: 4px 20px;
+}
+}
+.l-sec{
+    margin: 0px auto;
+    width: 900px;
+
+&__image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 15px;
+    // justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+&__box{
+    width: 30%;
+    
+        
+}
+
+
+    &__block{
+        border: #fff solid 1px;
+        background-color: #f783b0;
+        padding: 10px;
+        color: #fff;
+
+}}
+
+.box-btn {
+    text-align: center;
+    background-color: #f8f2f5;
+    color: #fff;
+    transform: scale(0);
+    transform: skewX(150deg);
+    box-shadow: 10px 3px 10px #da3131;
+    height: px;
+    a{
+        text-decoration: none;
+    }
+    &:hover{
+        background-color: #f783b0;
+        transform: scale(1.08);
+        transform: all 1s ease;
+        box-shadow: 10px 3px 10px #da3131;
+        transform: skewX(150deg) ;
+    }
+}
+.box-icon{
+    transform: scale(1);
+    transition: all 1s ease;
+    
+&:hover{
+    transform: scale(1.08);
+    overflow: hidden;
+}}}
+.block--plus{
+    position: relative;
+
+
+&::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    left:50%;
+    background-color: #f83707;
+    bottom: -15px;
+    transform: translate(-60px);
+
+}
+}
