@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    z-index: 1;
 
 &__logo{
     background-color: rgb(10, 10, 10);
@@ -75,19 +76,3 @@
     transform: scale(1.08);
     overflow: hidden;
 }}}
-.block--plus{
-    position: relative;
-
-
-&::before{
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100px;
-    left:50%;
-    background-color: #f83707;
-    bottom: -15px;
-    transform: translate(-60px);
-
-}
-}
